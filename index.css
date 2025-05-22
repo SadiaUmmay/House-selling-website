@@ -103,6 +103,14 @@
     transform: rotateY(360deg);
     transition: 3s;
   }
+ .animate-scale img{
+    transition: transform 0.8s ease,
+    filter 0.8s ease;
+}
+.animate-scale img:hover{
+    transform: scale(1.1);
+    filter:brightness(0.7)
+}
   .img:hover{
     transform: scale(1.1);
     /* overflow: hidden; */
