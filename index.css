@@ -20,9 +20,7 @@
     background-color: rgb(148, 248, 101);
     border: 2px solid rgb(148, 248, 101);
 }
-.translate:hover{
-    
-}
+
 .contact-input{
     width: 600px;
     margin: 20px auto;
@@ -111,11 +109,15 @@
     transform: scale(1.1);
     filter:brightness(0.7)
 }
-  .img:hover{
-    transform: scale(1.1);
-    /* overflow: hidden; */
-    /* overflow: unset; */
-  }
+.white-btn:hover{
+    background-color: rgb(148, 248, 101);
+}
+.article{
+    transition: transform 0.3s ease;
+}
+.article:hover{
+    transform: translateY(-10px);
+}
 .footer{
     width: 40%;
     margin: 0 auto;
